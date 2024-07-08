@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../global.css'
 
 export interface Button1Props {
   text?: string;
