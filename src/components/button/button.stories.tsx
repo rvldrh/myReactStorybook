@@ -15,7 +15,8 @@ export default {
   },
   parameters: {
     layout: "centered"
-  }
+  },
+  tags: ['autodocs'],
 } as Meta;
 
 const Template: StoryFn<Button1Props> = (args) => <Button1 {...args} />;

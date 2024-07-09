@@ -15,6 +15,7 @@ export default {
   parameters: {
     layout: 'centered',
   },
+  tags: ['autodocs'],
 } as Meta;
 
 const Template: StoryFn<InputProps> = (args: InputProps) => <Input {...args} />;
