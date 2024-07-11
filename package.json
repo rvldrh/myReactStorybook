@@ -1,10 +1,9 @@
 {
   "name": "rvlsb",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.6",
   "type": "module",
-  "main": "./dist/components/index.ts",
-  "types": "./dist/types/index.d.ts",
+  "main": "./components/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
