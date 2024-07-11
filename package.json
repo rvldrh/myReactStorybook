@@ -1,8 +1,9 @@
 {
-  "name": "sb",
-  "private": true,
-  "version": "0.0.0",
+  "name": "rvlsb",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "main": "./storybook-static",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,6 +11,9 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
