@@ -2,12 +2,14 @@
   "name": "rvlsb",
   "private": false,
   "version": "0.0.8",
+  "author": "Rivaldo",
+  "description": "my first react components library goes public",
   "type": "module",
   "main": "./components/index.ts",
   "types": "./dist/types/components/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "rollup -c",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
@@ -21,6 +23,19 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+  "peerDependencies": {
+    "@types/leaflet": "^1.7.11",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-leaflet": "^2.8.2",
+    "@types/styled-components": "^5.1.25",
+    "leaflet": "^1.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.1",
+    "styled-components": "^5.3.5"
+  },
+  
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
     "@storybook/addon-essentials": "^8.1.11",
